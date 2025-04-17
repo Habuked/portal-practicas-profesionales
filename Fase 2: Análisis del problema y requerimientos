@@ -1,0 +1,9 @@
+Análisis del problema y requerimientos
+--------------------------------------------------
+Descripción General del Sistema
+El sistema a desarrollar es una plataforma web de gestión de prácticas profesionales, cuyo propósito es facilitar la interacción entre empresas, estudiantes y coordinadores académicos para el proceso de vinculación mediante prácticas profesionales.
+Este sistema permitirá:
+•	Publicación y gestión de ofertas por parte de las empresas.
+•	Postulación de estudiantes y seguimiento del proceso.
+•	Gestión y validación de documentos (convenios, informes, etc.).
+•	Supervisión académica del proceso por parte de la universidad.
