@@ -13,3 +13,8 @@
 - Descripción general del sistema.
 - Identificación de actores y funcionalidades.
 - Requisitos funcionales y no funcionales.
+
+
+## Diseño arquitectónico (estilo arquitectónico adoptado)
+- Javier Sanchez, Jamín Diaz, Luis Ludena
+
