@@ -1,0 +1,67 @@
+# 📅 Cronograma de Trabajo y Gestión del Proyecto
+
+Este documento describe el cronograma de trabajo del proyecto **"Portal de Prácticas Profesionales"**, así como la planificación y organización del flujo de trabajo colaborativo en GitHub.
+
+## 🛠 Herramientas utilizadas
+
+- **GitHub Projects (Kanban)**: Para la gestión de tareas por fase del proyecto.
+- **Issues**: Cada tarea es registrada como un *issue* para hacer seguimiento de su progreso.
+- **Labels**: Se utilizaron etiquetas de colores para distinguir las fases del proyecto.
+- **Ramas**: Cada integrante trabaja en su propia rama, siguiendo el flujo definido.
+
+---
+
+## 🗂️ Organización del Tablero Kanban
+
+El tablero se organiza en columnas que representan el estado de las tareas:
+
+- **Backlog**: Actividades aún no iniciadas.
+- **To Do**: Actividades por realizar próximamente.
+- **In Progress**: Actividades en desarrollo.
+- **Done**: Actividades finalizadas.
+
+---
+
+## 🔖 Uso de Labels
+
+Para facilitar la identificación de tareas por fase, se definieron los siguientes labels con sus respectivos colores asignados en el cronograma de trabajo.:
+
+- 🟥 `F1 - Planificación y Coordinación`
+- 🟦 `F2 - Análisis de Requerimientos`
+- 🟩 `F3 - Diseño Arquitectónico`
+- 🟨 `F4 - Diseño Detallado`
+- 🟪 `F5 - Desarrollo de Prototipo`
+
+> ⚠️ Para facilitar su visibilidad, los labels están asignados a cada issue.
+
+---
+
+## 👥 Asignación de tareas y trabajo colaborativo
+
+Cada issue tiene:
+- Un responsable asignado (usando el campo *Assignees*).
+- Una descripción clara de la tarea, su propósito y pasos esperados.
+- Enlace con la fase correspondiente mediante el label.
+
+---
+
+## 📌 Visualización del Cronograma
+
+- La prioridad y el orden de ejecución de tareas están representados en el tablero Kanban.
+- Se realizan reuniones periódicas para revisar avances y replanificar actividades según sea necesario.
+- Cada fase tiene un conjunto de tareas identificadas y asignadas en el tablero para facilitar el seguimiento.
+
+---
+
+## 📌Cada integrante debe:
+
+- Tomar una tarea desde "To Do".
+- Moverla a "In Progress" cuando comience su desarrollo.
+- Finalmente, moverla a "Done" una vez revisada y aprobada.
+
+
+## ✅ Flujo de Trabajo
+
+```mermaid
+graph TD
+    Backlog --> Todo --> InProgress --> Done
