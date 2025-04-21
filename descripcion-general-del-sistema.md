@@ -33,6 +33,7 @@ preprofesionales en un entorno centralizado,eficiente y transparente.
 
 ---
 
+Autor: Jazmin Diaz.
 
 # Público Objetivo
 
@@ -42,6 +43,9 @@ preprofesionales en un entorno centralizado,eficiente y transparente.
 
 ---
 
+Autor: Javier Sanchez
+
+
 # Beneficios Esperados
 
 - Mejora en la gestión y transparencia del proceso de prácticas.
@@ -50,7 +54,6 @@ preprofesionales en un entorno centralizado,eficiente y transparente.
 - Homologación de materias de prácticas preprofesionales.
 
 ---
-Autor: Javier Sanchez
 
 
 # Alcance
@@ -60,7 +63,6 @@ El portal de prácticas profesionales permitirá a las empresas publicar ofertas
 Los usuarios deberán generar una clave al ingresar por primera vez al sistema para poder hacer uso de la aplicación. Solo podrán utilizar la aplicación los **estudiantes activos de la institución**.
 
 ---
-Autor: Jazmin Diaz.
 
 ## Roles del Sistema
 
