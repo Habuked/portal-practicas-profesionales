@@ -9,6 +9,7 @@ Plataforma web donde empresas publican ofertas de prácticas y estudiantes puede
 - **Javier Sanchez** – Líder del Proyecto
 - **Jazmin Diaz** – Desarrolladora
 - **Luis Ludena** – Desarrollador
+- **Juan Guzman** - Desarrollador
 
 ---
 
@@ -37,6 +38,19 @@ Plataforma web donde empresas publican ofertas de prácticas y estudiantes puede
 
 ### Fase 3: Diseño arquitectónico
 - Estilo arquitectónico adoptado (y justificación).
+- Diagrama de componentes o módulos principales.
+- Diagrama de despliegue.
+
+### Fase 4: Diseño detallado
+
+- Diagramas de clases, secuencia y/o estados según convenga.
+- Modelo de datos.
+- Justificación de patrones de diseño usados.
+
+### Fase 5: Desarrollo del prototipo
+
+- Prototipo funcional en alta fidelidad (mínimo una funcionalidad clave)
+
 
 ---
 
@@ -46,6 +60,7 @@ Plataforma web donde empresas publican ofertas de prácticas y estudiantes puede
 - `javier-sanchez` – Rama de desarrollo del líder
 - `jazmin-diaz` – Rama de desarrollo
 - `luis-ludena` – Rama de desarrollo
+- `Juan-Guzman` – Rama de desarrollo
 
 Cada desarrollador trabaja en su rama y luego realiza **Pull Request** hacia `main` para fusionar los cambios.
 
