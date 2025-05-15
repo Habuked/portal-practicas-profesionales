@@ -1,4 +1,4 @@
-# 🚀 Portal de Prácticas Profesionales
+  # 🚀 Portal de Prácticas Profesionales
 
 Plataforma web donde empresas publican ofertas de prácticas y estudiantes pueden postular. Incluye gestión de procesos, seguimiento de estados y manejo de documentos.
 
@@ -37,6 +37,20 @@ Plataforma web donde empresas publican ofertas de prácticas y estudiantes puede
 
 ### Fase 3: Diseño arquitectónico
 - Estilo arquitectónico adoptado (y justificación).
+- Diagrama de componentes o módulos principales.
+
+### Fase 4: Diseño detallado
+
+- Diagrama de clases.
+- Diagrama de secuencia.
+- Diagrama de estados.
+- Modelo de datos.
+
+### Fase 5: Desarrollo del prototipo
+
+- Prototipo funcional.
+- Control de versiones en GitHub con ramas por integrante
+- Documentación del código y README del proyecto
 
 ---
 
