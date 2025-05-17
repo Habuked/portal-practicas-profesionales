@@ -1,4 +1,3 @@
-
 ## 📄 Pantalla de Resultados de Prácticas Disponibles
 
 **Elementos claves:**
