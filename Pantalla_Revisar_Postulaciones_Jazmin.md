@@ -5,7 +5,7 @@
 
 - Logo de la institución.  
 - Filtros: Oferta, estado
-- GRID
+- GRID Postulaciones Recibidas
   - Nombre del alumno
   - Fecha de postulación
   - Botón “Ver Información”
