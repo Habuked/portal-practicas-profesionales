@@ -1,91 +1,91 @@
-# ?? Selección de las Funcionalidades Claves
+# ğŸ¯ SelecciÃ³n de las Funcionalidades Claves
 
 ## Objetivo del Prototipo
 
-Diseñar una experiencia clara, accesible y funcional para que el estudiante pueda:
+DiseÃ±ar una experiencia clara, accesible y funcional para que el estudiante pueda:
 
-- Postularse a prácticas.  
-- Visualizar, gestionar y recibir información de sus postulaciones.  
+- Postularse a prÃ¡cticas.  
+- Visualizar, gestionar y recibir informaciÃ³n de sus postulaciones.  
 
 ---
 
-## ?? Pantallas del prototipo
+## ğŸ“± Pantallas del prototipo
 
-### 1. ?? Pantalla de Autenticación
+### 1. ğŸ”‘ Pantalla de AutenticaciÃ³n
 
 **Elementos clave:**
 
-- Logo de la institución.  
+- Logo de la instituciÃ³n.  
 - Campo: Usuario / Correo institucional.  
-- Campo: Contraseña.  
-- Botón: “Iniciar sesión”.  
-- Link: “¿Olvidaste tu clave?”.  
+- Campo: ContraseÃ±a.  
+- BotÃ³n: â€œIniciar sesiÃ³nâ€.  
+- Link: â€œÂ¿Olvidaste tu clave?â€.  
 
 ---
 
-### 2. ?? Pantalla de Selección de Especialidad y Fecha de práctica
+### 2. ğŸ“ Pantalla de SelecciÃ³n de Especialidad y Fecha de prÃ¡ctica
 
 **Elementos clave:**
 
-- Menú desplegable: Especialidad o carrera.  
-- Calendario: Rango de fechas disponible para prácticas.  
-- Botón: “Confirmar Selección”.  
+- MenÃº desplegable: Especialidad o carrera.  
+- Calendario: Rango de fechas disponible para prÃ¡cticas.  
+- BotÃ³n: â€œConfirmar SelecciÃ³nâ€.  
 
 ---
 
-### 3. ?? Pantalla de Resultados de Prácticas Disponibles
+### 3. ğŸ“„ Pantalla de Resultados de PrÃ¡cticas Disponibles
 
 **Elementos clave:**
 
 - Lista de ofertas con tarjetas/resumen:
   - Empresa  
   - Cargo/rol  
-  - Modalidad (remoto, presencial, híbrido)  
-  - Duración / fechas  
-  - Botón “Postularse”  
-- Filtros: Empresa, modalidad, tipo práctica.  
+  - Modalidad (remoto, presencial, hÃ­brido)  
+  - DuraciÃ³n / fechas  
+  - BotÃ³n â€œPostularseâ€  
+- Filtros: Empresa, modalidad, tipo prÃ¡ctica.  
 
 ---
 
-### 4. ?? Pantalla de Agendamiento
+### 4. ğŸ“† Pantalla de Agendamiento
 
 **Elementos clave:**
 
 - Detalle de la oferta seleccionada.  
-- Confirmación de datos personales.  
-- Selección de fecha de inicio.  
-- Botón: “Confirmar postulación”.  
+- ConfirmaciÃ³n de datos personales.  
+- SelecciÃ³n de fecha de inicio.  
+- BotÃ³n: â€œConfirmar postulaciÃ³nâ€.  
 
 ---
 
-### 5. ?? Pantalla Publicar Ofertas
+### 5. ğŸ“„ Pantalla Publicar Ofertas
 
 **Elementos clave:**
 
 - Lista de Especialidad.  
 - Lista de cargos por especialidad.  
-- Fecha límite de postulación.  
+- Fecha lÃ­mite de postulaciÃ³n.  
 - Lista de modalidad.  
-- Lista de tipo de práctica.  
-- Descripción de la oferta.  
-- Botón “Publicar Oferta”.  
+- Lista de tipo de prÃ¡ctica.  
+- DescripciÃ³n de la oferta.  
+- BotÃ³n â€œPublicar Ofertaâ€.  
 
 ---
 
-### 6. ?? Pantalla Revisar Postulaciones
+### 6. ğŸ“„ Pantalla Revisar Postulaciones
 
 **Elementos clave:**
 
-- Logo de la institución.
+- Logo de la instituciÃ³n.
 - Filtros: Oferta, estado
 - GRID Postulaciones Recibidas
 - Nombre del alumno
-- Fecha de postulación
-- Botón “Ver Información”
+- Fecha de postulaciÃ³n
+- BotÃ³n â€œVer InformaciÃ³nâ€
 
 ---
 
-### 7. ?? Pantalla Aprobar Postulaciones
+### 7. ğŸ“„ Pantalla Aprobar Postulaciones
 
 **Elementos clave:**
 
@@ -93,22 +93,22 @@ Diseñar una experiencia clara, accesible y funcional para que el estudiante pued
 - Especialidad.  
 - Cargo.  
 - Modalidad.  
-- Período de práctica.  
-- Fecha de postulación.  
-- Botón “Rechazar”.  
-- Botón “Aprobar”.  
+- PerÃ­odo de prÃ¡ctica.  
+- Fecha de postulaciÃ³n.  
+- BotÃ³n â€œRechazarâ€.  
+- BotÃ³n â€œAprobarâ€.  
 
 ---
 
-### 8. ?? Pantalla de Visualización de Prácticas Vigentes
+### 8. ğŸ‘€ Pantalla de VisualizaciÃ³n de PrÃ¡cticas Vigentes
 
 **Elementos clave:**
 
-- Lista de prácticas activas con:
+- Lista de prÃ¡cticas activas con:
   - Estado (aceptada, en proceso, finalizada)  
   - Empresa, tutor asignado, fechas  
-- Botón: “Anular práctica” (si aplica).  
-- Botón: “Descargar carta” o documento.  
+- BotÃ³n: â€œAnular prÃ¡cticaâ€ (si aplica).  
+- BotÃ³n: â€œDescargar cartaâ€ o documento.  
 
 ---
 
