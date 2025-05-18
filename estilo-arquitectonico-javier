@@ -1,0 +1,107 @@
+# Resumen General – Justificación de la Arquitectura Elegida
+
+Para el desarrollo del sistema se optó por una **arquitectura de microservicios**, dado que permite dividir la aplicación en múltiples componentes autónomos que interactúan entre sí mediante interfaces bien definidas (APIs). Esta estructura se adapta especialmente a proyectos que requieren **escalabilidad**, **flexibilidad operativa** y una **alta capacidad de evolución en el tiempo**.
+
+Cada microservicio está orientado a una función específica, lo cual facilita tanto el desarrollo como el mantenimiento. Entre los servicios propuestos se incluyen:
+
+- Gestión de usuarios
+- Publicación de ofertas
+- Postulación de estudiantes
+- Administración de documentos
+
+Al trabajar de manera independiente, estos servicios permiten que diferentes equipos colaboren de forma paralela, reduciendo los tiempos de entrega y mejorando la eficiencia del desarrollo.
+
+Esta decisión arquitectónica se alinea estrechamente con los requerimientos funcionales y no funcionales del sistema, tales como la necesidad de una interfaz intuitiva, disponibilidad constante, seguridad robusta, respuesta ágil, y soporte para un alto volumen de usuarios y datos.
+
+---
+
+## Arquitectura elegida: Microservicios
+
+En la arquitectura de microservicios, el sistema se divide en múltiples servicios pequeños e independientes, cada uno encargado de una tarea específica, que interactúan entre sí a través de APIs. Algunos microservicios que podrías considerar son:
+
+- **Microservicio de usuario**: Gestiona la autenticación y el perfil de estudiantes y empresas.
+- **Microservicio de oferta**: Se encarga de crear y gestionar las ofertas de prácticas publicadas por las empresas.
+- **Microservicio de postulación**: Maneja todo el proceso de postulación y estado de las aplicaciones.
+- **Microservicio de documentos**: Gestiona la subida y descarga de documentos (CVs, cartas de presentación, etc.).
+
+---
+
+## Justificación
+
+La arquitectura de microservicios es adecuada si se espera que el portal crezca considerablemente en términos de usuarios, funcionalidad o tráfico. Permite que cada componente sea independiente y pueda escalar de manera autónoma, lo que es ideal si el número de ofertas y postulaciones crece rápidamente. Además, cada microservicio puede ser desarrollado, implementado y desplegado por equipos diferentes, lo que mejora la eficiencia en equipos grandes y proyectos con plazos ajustados.
+
+Además, con microservicios, cada parte del sistema puede ser optimizada y mantenida de forma separada, lo que facilita la incorporación de nuevas tecnologías o cambios en los requisitos sin afectar a todo el sistema.
+
+---
+
+### Autor: Javier Sanchez
+
+**Motivo de la elección**:  
+La arquitectura de microservicios se adapta perfectamente a sistemas que requieren escalabilidad, flexibilidad, despliegue ágil y un desarrollo modular, lo cual es crucial si se espera un crecimiento rápido en usuarios, tráfico o funcionalidades.
+
+---
+
+## Cómo contribuye al éxito del sistema
+
+- Mejora la eficiencia del desarrollo (equipos trabajando en paralelo).
+- Facilita la incorporación de nuevas tecnologías o cambios sin afectar todo el sistema.
+- Aumenta la resiliencia, ya que fallos en un microservicio no comprometen el resto.
+- Permite responder más rápidamente a los requerimientos del usuario y a las necesidades del negocio.
+
+---
+
+## Ventajas
+
+- **Escalabilidad**: Cada microservicio puede escalarse de manera independiente según la demanda.
+- **Mantenibilidad**: Facilita la actualización y mantenimiento de cada servicio sin afectar el resto del sistema.
+- **Despliegue Independiente**: Permite desplegar y actualizar servicios de forma independiente, reduciendo el riesgo de interrupciones.
+- **Flexibilidad Tecnológica**: Cada microservicio puede desarrollarse con tecnologías diferentes según sus necesidades específicas.
+- **Resiliencia**: La falla de un microservicio no afecta el funcionamiento de los demás, mejorando la estabilidad del sistema.
+
+---
+
+## Desventajas
+
+- Complejidad en la comunicación entre servicios.
+- Uso intensivo de redes y protocolos para la interoperabilidad.
+- Requiere APIs bien diseñadas y versionadas.
+- **Riesgos de seguridad aumentados**: Múltiples puntos de entrada requieren un enfoque más robusto en autenticación y protección.
+- **Sobrecarga operativa**: Mayor esfuerzo en despliegue, configuración, registro, descubrimiento de servicios, y manejo de fallas.
+
+---
+
+## Posibles Riesgos y Mitigaciones
+
+- **Riesgo de Comunicación**: Complejidad en la comunicación entre microservicios.  
+  _Mitigación_: Implementar APIs bien definidas y utilizar herramientas de gestión de microservicios como Kubernetes.
+
+- **Riesgo de Seguridad**: Aumenta la superficie de ataque debido a múltiples puntos de entrada.  
+  _Mitigación_: Aplicar medidas de seguridad robustas en cada microservicio y utilizar gateways de API.
+
+- **Riesgo de Gestión**: Complejidad en la gestión y monitoreo de múltiples servicios.  
+  _Mitigación_: Utilizar herramientas de monitoreo y gestión centralizadas como Prometheus y Grafana.
+
+---
+
+## Relación con Requerimientos Funcionales y No Funcionales
+
+### Requerimientos Funcionales
+
+- **Gestión de usuarios**: Registro, inicio de sesión y asignación de roles (RF001, RF003, RF005, RF016).
+- **Gestión de perfiles**: Completar y editar información académica, profesional y empresarial (RF002, RF011).
+- **Publicación de ofertas**: Las empresas crean y gestionan convocatorias (RF004, RF006, RF007).
+- **Postulación a prácticas**: Los estudiantes pueden postularse a ofertas y subir documentos (RF008, RF009).
+- **Seguimiento del proceso**: Control de etapas: pre-práctica, práctica activa y cierre (RF010, RF012, RF013).
+- **Gestión documental**: Subida, validación y descarga de documentos clave (RF014, RF015).
+- **Notificaciones automáticas**: Avisos a los usuarios sobre cambios, aprobaciones y vencimientos (RF017, RF018).
+- **Reportes y estadísticas**: Generación de informes para evaluación institucional (RF019, RF020).
+
+### Requerimientos No Funcionales
+
+- **Usabilidad**: Interfaz intuitiva y fácil de usar para todos los perfiles.
+- **Seguridad**: Acceso por roles, cifrado de contraseñas y protección de datos.
+- **Disponibilidad**: Acceso continuo (24/7), con mínimo 99% de tiempo activo.
+- **Escalabilidad**: Capacidad de crecer sin afectar el rendimiento.
+- **Rendimiento**: Respuesta rápida y soporte para múltiples usuarios al mismo tiempo.
+- **Compatibilidad**: Funciona en distintos navegadores y dispositivos (responsive).
+- **Mantenibilidad**: Código modular, documentado y fácil de actualizar.

@@ -1,0 +1,13 @@
+```mermaid
+graph TD
+  UI[Frontend Web/App]
+  API[API Gateway]
+  UI --> API
+  API --> UMS[Microservicio de Usuario]
+  API --> OFS[Microservicio de Oferta]
+  API --> POS[Microservicio de Postulación]
+  API --> DOCS[Microservicio de Documentos]
+  UMS --> DB1[(DB Usuarios)]
+  OFS --> DB2[(DB Ofertas)]
+  POS --> DB3[(DB Postulaciones)]
+  DOCS --> FS[(Sistema de Archivos o S3)]
