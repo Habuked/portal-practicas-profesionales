@@ -2,7 +2,7 @@
 
 ## ✅ Requisitos Funcionales
 
-Los requisitos funcionales describen las capacidades y comportamientos específicos que el sistema debe tener para cumplir con sus objetivos. En el contexto del proyecto y en relación al caso de estudio del sistema implementado por la Universidad del Magdalena, se identifican los siguientes:
+Los requisitos funcionales describen las capacidades y comportamientos específicos que el sistema debe tener para cumplir con sus objetivos. En el contexto del proyecto y en relación al caso de estudio del sistema implementado, se identifican los siguientes:
 
 ### Funcionalidades Principales
 
