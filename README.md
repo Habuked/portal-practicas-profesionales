@@ -9,6 +9,7 @@ Plataforma web donde empresas publican ofertas de prácticas y estudiantes puede
 - **Javier Sanchez** – Líder del Proyecto
 - **Jazmin Diaz** – Desarrolladora
 - **Luis Ludena** – Desarrollador
+- **Juan Guzman** – Desarrollador
 
 ---
 
@@ -60,6 +61,7 @@ Plataforma web donde empresas publican ofertas de prácticas y estudiantes puede
 - `javier-sanchez` – Rama de desarrollo del líder
 - `jazmin-diaz` – Rama de desarrollo
 - `luis-ludena` – Rama de desarrollo
+- `juan-guzman` – Rama de desarrollo
 
 Cada desarrollador trabaja en su rama y luego realiza **Pull Request** hacia `main` para fusionar los cambios.
 
@@ -74,9 +76,9 @@ Cada desarrollador trabaja en su rama y luego realiza **Pull Request** hacia `ma
 
 ## 🛠️ Tecnologías a usar
 
-- **Frontend**: (pendiente)
-- **Backend**: (pendiente)
-- **Base de datos**: (pendiente)
+- **Frontend**: Reflex
+- **Backend**: Python
+- **Base de datos**: Maria DB
 - **Control de versiones**: Git + GitHub
 
 ---
@@ -90,6 +92,7 @@ Se encuentra en la sección [Wiki](https://github.com/Habuked/portal-practicas-p
 ## 📌 Estado actual del proyecto
 
 > 🔧 En fase de planificación – Sprint 1 en curso
+> 🔧 En fase de desarrollo – Sprint 2 en curso
 
 ---
 
